@@ -1,0 +1,25 @@
+from direct.showbase.ShowBase import ShowBase
+class Game(ShowBase):
+    def __init__(self):
+        ShowBase.__init__(self)
+        base.camLens.setFov(134)
+        #self.model = loader.loadModel('block.png')
+        #self.model.reparentTo(render)
+        #self.model.setScale(0.1)
+        #self.model.setPos(-2, 25, -3)
+        #self.model = loader.loadModel('Boeing707.egg')
+        #self.model.reparentTo(render)
+        #self.model.setScale(0.1)
+        #self.model.setPos(-30, 25, -3)
+        #self.model = loader.loadModel('Fighter.egg')
+        #self.model.reparentTo(render)
+        #self.model.setScale(0.1)
+        #self.model.setPos(-30, 25, -30)
+        #self.model = loader.loadModel('Sailboat.egg')
+        #self.model.reparentTo(render)
+        #self.model.setScale(0.1)
+        #self.model.setPos(-3, 25, -30)
+        base.camLens.setFov(134)
+
+game = Game()
+game.run()
